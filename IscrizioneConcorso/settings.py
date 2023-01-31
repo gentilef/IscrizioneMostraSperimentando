@@ -217,7 +217,7 @@ EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 #  IMPOSTAZIONI CORRETTE PER LA POSTA ELETTRONICA CON ERGONET
 EMAIL_USE_TLS = True
 EMAIL_HOST = 'smtp.ergonet.it'
-EMAIL_HOST_USER=os.getenv('EMAIL_HOST_USER')+"@aifpadova.it"
+# EMAIL_HOST_USER=os.getenv('EMAIL_HOST_USER')+"@aifpadova.it"
 EMAIL_HOST_PASSWORD=os.getenv('EMAIL_HOST_PASSWORD')
 EMAIL_PORT = 587
 DEFAULT_FROM_EMAIL = 'info@aifpadova.it'
