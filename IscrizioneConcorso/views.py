@@ -14,7 +14,7 @@ from django.conf import settings
 #
 #
 ##    return render(request)
-##    return render(request,"127.0.0.1:8000/IscrizioneConcorso/frontend/views/userEditor.vue")
+##    return render(request,"127.0.0.1:443/IscrizioneConcorso/frontend/views/userEditor.vue")
 
 def visualizzaGuidaUtente(request):
     with open(settings.BASE_DIR + '/static/GuidaUtente.pdf', 'rb') as pdf:

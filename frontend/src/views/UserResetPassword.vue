@@ -72,7 +72,7 @@ export default {
 
 
      onSubmit() {
-        location.href = "http://127.0.0.1:8000/mail/";
+        location.href = "http://127.0.0.1:443/mail/";
              alert("Dati Personali  Aggiornati Correttamente")
              this.tornaIndietro()
      },
