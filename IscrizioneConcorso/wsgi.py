@@ -13,4 +13,8 @@ from django.core.wsgi import get_wsgi_application
 
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'IscrizioneConcorso.settings')
 
+# azure settings
+settings_module = 'azureproject.production' if 'WEBSITE_HOSTNAME' in os.environ else 'azureproject.settings'
+# os.environ.setdefault('DJANGO_SETTINGS_MODULE', settings_module)appinsights.bicep
+
 application = get_wsgi_application()
